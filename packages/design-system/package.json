@@ -1,0 +1,17 @@
+{
+  "name": "design-system",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.modern.js",
+  "source": "src/index.js",
+  "scripts": {
+    "development:start": "yarn microbundle-crl watch --no-compress --format modern,cjs"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
+  "devDependencies": {
+    "microbundle-crl": "^0.13.11"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "lerna-monorepo-example",
+  "version": "1.0.0",
+  "repository": "git@github.com:alecap7/lerna-monorepo-example.git",
+  "author": "Alessandro Capogna <alessandro.capogna.1992@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "applications/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "yarn lerna run development:start --parallel"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
